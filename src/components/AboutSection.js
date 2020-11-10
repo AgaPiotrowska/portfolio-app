@@ -1,20 +1,29 @@
 import React from 'react';
 import aga from "../img/aga.jpg";
-import styled from "styled-components";
 import {About, Description, Image, Hide} from "../styles";
+import {motion} from "framer-motion";
 
 const AboutSection = () => {
+
+    const titleAnim = {
+        hidden: {opacity: 0},
+        show: {opacity: 1, transition:{duration: 2}}
+    };
+
     return (
         <About>
             <Description>
                 <div className="title">
                     <Hide>
-                        <h2>I work to help ensure</h2>
+                        <motion.h2
+                            variants={titleAnim} initial="hidden" animate="show">
+                            I work to help ensure
+                        </motion.h2>
                     </Hide>
                     <Hide>
-                        <h2>
+                        <motion.h2 >
                             your <span>business </span>succeeds
-                        </h2>
+                        </motion.h2>
                     </Hide>
                     <Hide>
                         <h2>and grows.</h2>

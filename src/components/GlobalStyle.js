@@ -9,10 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background: #343B24;
-    background: -webkit-linear-gradient(top left, #343B24, #B38A59);
-    background: -moz-linear-gradient(top left, #343B24, #B38A59);
-    background: linear-gradient(to bottom right, #343B24, #B38A59);
+    background: #2b7a78;
     font-family: 'Inter', sans-serif;
 }
   

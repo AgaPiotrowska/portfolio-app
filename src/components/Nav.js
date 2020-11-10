@@ -30,11 +30,14 @@ const StyledNav=styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
-  background-color: #282828;
+  background-color: #17252a;
   
   a{
   color: white;
   text-decoration: none;
+  }
+  a:hover {
+  text-decoration: underline;
   }
   
   ul{

@@ -3,7 +3,6 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
-import home2 from "../img/home2.png";
 import {About, Description, Image, Hide} from "../styles";
 import styled from "styled-components";
 
@@ -44,22 +43,19 @@ const SkillsSection = () => {
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="icon"/>
-                            <h3>Communication</h3>
+                            <h3>Efficiency</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="icon"/>
-                            <h3>Communication</h3>
+                            <h3>Creativity</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </Card>
                 </Cards>
             </Description>
-            <Image>
-                <img src={home2} alt="skills-photo"/>
-            </Image>
         </Skills>
     )
 };
@@ -82,6 +78,7 @@ const Cards=styled.div`
 
 const Card=styled.div`
   flex-basis: 20rem;
+  margin: 0 auto;
   
   .icon {
   display: flex;
@@ -91,7 +88,7 @@ const Card=styled.div`
   margin-left: 1rem;
   background-color: white;
   color: black;
-  padding: 1rem;
+  padding: 0.7rem;
   }
   }
 `;
