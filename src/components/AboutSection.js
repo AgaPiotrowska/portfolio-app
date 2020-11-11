@@ -36,7 +36,10 @@ const AboutSection = () => {
                 </motion.button>
             </Description>
             <Image>
-                <motion.img variants={photoAnim} src={aga} alt="main picture"/>
+                <motion.img
+                    variants={photoAnim}
+                    src={aga}
+                    alt="main picture"/>
             </Image>
             <Wave/>
         </About>

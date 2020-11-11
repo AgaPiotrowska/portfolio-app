@@ -1,44 +1,40 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from "styled-components";
 import {About} from "../styles";
-
+import Toggle from "./Toggle";
+import { AnimateSharedLayout} from "framer-motion";
 
 const FaqSection = () => {
+
     return (
         <Faq>
             <h2>Any Questions <span>FAQ</span></h2>
-            <div className="question">
-                <h4>What is my tech profile?</h4>
-                <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
-                </div>
-                <div className="faq-line"></div>
-            </div>
-            <div className="question">
-                <h4>What is my work experience</h4>
-                <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
-                </div>
-                <div className="faq-line"></div>
-            </div>
-            <div className="question">
-                <h4>What are my soft skills?</h4>
-                <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
-                </div>
-                <div className="faq-line"></div>
-            </div>
-            <div className="question">
-                <h4>Education background</h4>
-                <div className="answer">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
-                </div>
-                <div className="faq-line"></div>
-            </div>
+            <AnimateSharedLayout>
+                <Toggle title="What is my tech profile?">
+                        <div className="answer">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
+                        </div>
+                </Toggle>
+                <Toggle title="What is my work experience?">
+                        <div className="answer">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
+                        </div>
+                </Toggle>
+                <Toggle title="What are my soft skills?">
+                        <div className="answer">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
+                        </div>
+                </Toggle>
+                <Toggle title="What is my educational background?">
+                        <div className="answer">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, mollitia.</p>
+                        </div>
+                </Toggle>
+            </AnimateSharedLayout>
         </Faq>
     )
 };
