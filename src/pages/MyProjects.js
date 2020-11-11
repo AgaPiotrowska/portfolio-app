@@ -5,10 +5,18 @@ import mpaction1 from "../img/mpaction1.png"
 import dayplanner2 from "../img/dayplanner2.png"
 import musicplayer1 from "../img/musicplayer1.png"
 import {Link} from "react-router-dom";
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
 
 const MyProjects = () => {
     return (
-        <Projects>
+        <Projects
+            style={{background: "#fff"}}
+            exit="exit"
+            variants={pageAnimation}
+            initial="hidden"
+            animate="show"
+        >
             <Portfolio>
                 <h2>Forest Spa</h2>
                 <div className="line"></div>
@@ -40,7 +48,7 @@ const MyProjects = () => {
         </Projects>
     )};
 
-const Projects=styled.div`
+const Projects=styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;

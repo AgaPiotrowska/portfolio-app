@@ -5,30 +5,25 @@ import {motion} from "framer-motion";
 
 const AboutSection = () => {
 
-    const titleAnim = {
-        hidden: {opacity: 0},
-        show: {opacity: 1, transition:{duration: 2}}
-    };
-
     return (
         <About>
             <Description>
-                <div className="title">
+                <motion.div className="title">
                     <Hide>
-                        <motion.h2
-                            variants={titleAnim} initial="hidden" animate="show">
+                        <motion.h2>
                             I work to help ensure
                         </motion.h2>
                     </Hide>
                     <Hide>
-                        <motion.h2 >
+                        <motion.h2>
                             your <span>business </span>succeeds
                         </motion.h2>
                     </Hide>
                     <Hide>
-                        <h2>and grows.</h2>
+                        <motion.h2>and grows.
+                        </motion.h2>
                     </Hide>
-                </div>
+                </motion.div>
                 <p>Contact me if you are looking for self-motivated, well-organized and committed junior front-end with a positive attitude to challenges and opportunities.</p>
                 <button>Contact me</button>
             </Description>

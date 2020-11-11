@@ -22,8 +22,8 @@ export const Image = styled.div`
   overflow: hidden;
   
   img {
-  width: 100%;
-  height: 80vh;
+  width: 80%;
+  height: 100vh;
   object-fit: cover;
   }
 `;
