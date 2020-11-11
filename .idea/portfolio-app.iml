@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mp-action-photo" />
+    <orderEntry type="module" module-name="mp-action-photo" />
   </component>
 </module>
