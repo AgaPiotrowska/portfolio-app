@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #2b7a78;
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
   
   button {

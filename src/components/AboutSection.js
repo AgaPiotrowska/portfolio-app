@@ -3,6 +3,7 @@ import aga from "../img/aga.jpg";
 import {About, Description, Image, Hide} from "../styles";
 import {motion} from "framer-motion";
 import {titleAnim, fade, photoAnim} from "../animation";
+import Wave from "./Wave";
 
 const AboutSection = () => {
 
@@ -37,6 +38,7 @@ const AboutSection = () => {
             <Image>
                 <motion.img variants={photoAnim} src={aga} alt="main picture"/>
             </Image>
+            <Wave/>
         </About>
     );
 };

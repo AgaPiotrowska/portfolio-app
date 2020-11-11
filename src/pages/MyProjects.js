@@ -6,7 +6,7 @@ import dayplanner2 from "../img/dayplanner2.png"
 import musicplayer1 from "../img/musicplayer1.png"
 import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
-import { pageAnimation } from "../animation";
+import { pageAnimation, fade, photoAnim } from "../animation";
 
 const MyProjects = () => {
     return (
@@ -18,10 +18,19 @@ const MyProjects = () => {
             animate="show"
         >
             <Portfolio>
-                <h2>Forest Spa</h2>
-                <div className="line"></div>
+                <motion.h2
+                    variants={fade}
+                >
+                    Forest Spa
+                </motion.h2>
+                <motion.div className="line"></motion.div>
                 <Link to="/portfolio/forest-spa">
-                    <img src={forestspa1} alt="forest spa"/>
+                    <Hide>
+                        <motion.img
+                            variants={photoAnim}
+                            src={forestspa1}
+                            alt="forest spa"/>
+                    </Hide>
                 </Link>
             </Portfolio>
             <Portfolio>
@@ -64,7 +73,7 @@ const Portfolio=styled.div`
   .line {
   height: 0.5rem;
   margin-bottom: 3rem;
-  background-color: #cccccc;
+  background-color: #23d997;
   }
   
   img {
@@ -72,6 +81,10 @@ const Portfolio=styled.div`
   height: 70vh;
   object-fit: cover;
   }
+`;
+
+const Hide = styled.div`
+    overflow: hidden;
 `;
 
 export default MyProjects;
