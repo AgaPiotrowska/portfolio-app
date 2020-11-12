@@ -94,24 +94,35 @@ const Projects=styled(motion.div)`
   overflow: hidden;
   padding: 5rem 10rem;
   
+  @media (max-width: 1300px) {
+     padding: 2rem 2rem;
+    }
+  
   h2{
-  padding: 1rem 0rem;
+    padding: 1rem 0rem;
+    
+    @media (max-width: 1300px) {
+      font-size: 1.5rem;
+    }
   }
 `;
 
 const Portfolio=styled(motion.div)`
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
+  
+    @media (max-width: 1300px) {
+     padding-bottom: 2rem;
+    }
   
   .line {
-  height: 0.5rem;
-  margin-bottom: 3rem;
-  background-color: #23d997;
+      height: 0.5rem;
+      margin-bottom: 3rem;
+      background-color: #23d997;
   }
   
   img {
-  width: 100%;
-  height: 70vh;
-  object-fit: cover;
+      width: 100%;
+      object-fit: cover;
   }
 `;
 

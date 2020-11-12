@@ -39,7 +39,9 @@ export const PortfolioState = () => {
       title: "MP Action Photo",
       mainImg: mpaction1,
       url: "/portfolio/mpaction-photo",
-      secondaryImg: mpaction2,
+      secondaryImg1: mpaction2,
+      secondaryImg2: forestspa1,
+      secondaryImg3: forestspa2,
       awards: [
         {
           title: "MP Action Photo",
@@ -62,7 +64,9 @@ export const PortfolioState = () => {
       title: "Day Planner",
       mainImg: dayplanner2,
       url: "/portfolio/day-planner",
-      secondaryImg: dayplanner1,
+      secondaryImg1: dayplanner1,
+      secondaryImg2: forestspa1,
+      secondaryImg3: forestspa2,
       awards: [
         {
           title: "Day Planner",
@@ -85,7 +89,9 @@ export const PortfolioState = () => {
       title: "Music Player",
       mainImg: musicplayer1,
       url: "/portfolio/music-player",
-      secondaryImg: musicplayer2,
+      secondaryImg1: musicplayer2,
+      secondaryImg2: forestspa1,
+      secondaryImg3: forestspa2,
       awards: [
         {
           title: "Music Player",

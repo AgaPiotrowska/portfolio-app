@@ -60,43 +60,47 @@ const HeadLine=styled.div`
   padding-top: 20vh;
   
   h2{
-  position:absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+      position:absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -10%);
   }
   
   img {
-  width: 100%;
-  height: 70vh;
-  object-fit: cover;
+      width: 100%;
+      object-fit: cover;
   }
 `;
 
 const ProjectText=styled.div`
   display: flex;
   justify-content: space-around;
-  min-height: 80vh;
+  min-height: 60vh;
   margin: 5rem 10rem;
   align-items: center;
+  
+  @media (max-width: 1500px) {
+    display: block;
+    margin: 2rem 2rem;
+  }
 `;
 
 const TextComponentStyle=styled.div`
-  padding: 5rem;
+  padding: 3rem;
   
   h3{
-  font-size: 2rem;
+      font-size: 2rem;
   }
   
   .line {
-  width: 100%;
-  background-color: #23d997;
-  height: 0.5rem;
-  margin: 1rem 0rem;
+      width: 100%;
+      background-color: #23d997;
+      height: 0.5rem;
+      margin: 1rem 0rem;
   }
   
   p{
-  padding: 2rem 0rem;
+      padding: 2rem 0rem;
   }
 `;
 
@@ -104,13 +108,13 @@ const ImageDisplay=styled.div`
   min-height: 50vh;
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 100%;
   flex-wrap: wrap;
   
   img {
-  width: 400px;
-  height: 50%;
-  object-fit: cover;
+      width: 600px;
+      object-fit: cover;
+      padding: 1rem;
   }
 `;
 

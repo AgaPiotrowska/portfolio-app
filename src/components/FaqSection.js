@@ -80,7 +80,12 @@ const Faq=styled(About)`
   p{
   padding: 1rem 0rem;
   }
-  }
+  
+      @media (max-width: 1300px) {
+        // display: block;
+        // padding: 2rem 2rem;
+        text-align: center;
+    }
 `;
 
 export default FaqSection;
