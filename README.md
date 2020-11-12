@@ -4,7 +4,7 @@ This is a dynamic website powered by [Create React App](https://github.com/faceb
 
 ![portfolio_app_screen](./src/img/readmephoto.png)
 
-##Motivation
+## Motivation
 
 I started this project to wrap all my previously written projects in one and at the same time to practise the use of React, styled-components and web animations.
 
