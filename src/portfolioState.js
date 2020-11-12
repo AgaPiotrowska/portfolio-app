@@ -9,6 +9,7 @@ import musicplayer2 from "./img/musicplayer2.png"
 import forestspa3 from "./img/forestspa3.png"
 import forestspa4 from "./img/forestspa4.png"
 import mpaction3 from "./img/mpaction3.png"
+import musicplayer3 from "./img/musicplayer3.png"
 
 export const PortfolioState = () => {
   return [
@@ -93,8 +94,8 @@ export const PortfolioState = () => {
       mainImg: musicplayer1,
       url: "/portfolio/music-player",
       secondaryImg1: musicplayer2,
-      secondaryImg2: forestspa1,
-      secondaryImg3: forestspa2,
+      secondaryImg2: musicplayer3,
+      secondaryImg3: musicplayer1,
       awards: [
         {
           title: "Music Player",
