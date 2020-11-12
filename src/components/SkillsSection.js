@@ -3,12 +3,22 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
-import {About, Description, Image, Hide} from "../styles";
+import {About, Description, Image} from "../styles";
 import styled from "styled-components";
+import useScroll  from "./useScroll";
+import {scrollReveal} from "../animation";
 
 const SkillsSection = () => {
+
+    const [element, controls] = useScroll();
+
     return (
-        <Skills>
+        <Skills
+            variants={scrollReveal}
+            animate={controls}
+            initial="hidden"
+            ref={element}
+        >
             <Description>
                 <h2>Valuable <span>soft</span> skills</h2>
                 <Cards>
