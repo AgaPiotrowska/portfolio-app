@@ -8,6 +8,7 @@ import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
 import {pageAnimation, fade, photoAnim, lineAnim, scrollReveal} from "../animation";
 import useScroll from "../components/useScroll";
+import ScrollTop from "../components/ScrollTop";
 
 const MyProjects = () => {
 
@@ -84,7 +85,7 @@ const MyProjects = () => {
                     <img src={musicplayer1} alt="music player"/>
                 </Link>
             </Portfolio>
-
+            <ScrollTop/>
         </Projects>
     )};
 
