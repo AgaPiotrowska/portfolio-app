@@ -41,8 +41,11 @@ export const Image = styled.div`
   
   img {
   width: 80%;
-  // height: 100vh;
   object-fit: cover;
+  
+      @media (max-width: 1300px) {
+        width: 60%;
+  }
   }
 `;
 

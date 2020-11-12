@@ -19,7 +19,7 @@ const SkillsSection = () => {
             initial="hidden"
             ref={element}
         >
-            <Description>
+            <DescriptionSkills>
                 <h2>Valuable <span>soft</span> skills</h2>
                 <Cards>
                     <Card>
@@ -65,7 +65,7 @@ const SkillsSection = () => {
                         <p>Lorem ipsum dolor sit amet.</p>
                     </Card>
                 </Cards>
-            </Description>
+            </DescriptionSkills>
         </Skills>
     )
 };
@@ -79,7 +79,10 @@ const Skills = styled(About)`
       width: 70%;
       padding: 2rem 0rem 4rem 0rem;
   }
- 
+`;
+
+const DescriptionSkills=styled(Description)`
+    padding-right: 0rem;
 `;
 
 const Cards=styled.div`
