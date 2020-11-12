@@ -6,6 +6,9 @@ import forestspa2 from "./img/forestspa2.png"
 import mpaction2 from "./img/mpaction2.png"
 import dayplanner1 from "./img/dayplanner1.png"
 import musicplayer2 from "./img/musicplayer2.png"
+import forestspa3 from "./img/forestspa3.png"
+import forestspa4 from "./img/forestspa4.png"
+import mpaction3 from "./img/mpaction3.png"
 
 export const PortfolioState = () => {
   return [
@@ -14,8 +17,8 @@ export const PortfolioState = () => {
       description: "lorem shhgagsdkdfasdbkasfbksarbfhwrwabfkjwfnhjqw,fnjr",
       mainImg: forestspa1,
       secondaryImg1: forestspa2,
-      secondaryImg2: forestspa1,
-      secondaryImg3: forestspa2,
+      secondaryImg2: forestspa3,
+      secondaryImg3: forestspa4,
       url: "/portfolio/forest-spa",
       awards: [
         {
@@ -40,8 +43,8 @@ export const PortfolioState = () => {
       mainImg: mpaction1,
       url: "/portfolio/mpaction-photo",
       secondaryImg1: mpaction2,
-      secondaryImg2: forestspa1,
-      secondaryImg3: forestspa2,
+      secondaryImg2: mpaction3,
+      secondaryImg3: mpaction3,
       awards: [
         {
           title: "MP Action Photo",
@@ -65,8 +68,8 @@ export const PortfolioState = () => {
       mainImg: dayplanner2,
       url: "/portfolio/day-planner",
       secondaryImg1: dayplanner1,
-      secondaryImg2: forestspa1,
-      secondaryImg3: forestspa2,
+      secondaryImg2: dayplanner2,
+      secondaryImg3: dayplanner2,
       awards: [
         {
           title: "Day Planner",

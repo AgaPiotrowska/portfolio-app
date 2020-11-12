@@ -4,6 +4,7 @@ import {About, Description, Image, Hide} from "../styles";
 import {motion} from "framer-motion";
 import {titleAnim, fade, photoAnim} from "../animation";
 import Wave from "./Wave";
+import {Link} from "react-router-dom";
 
 const AboutSection = () => {
 
@@ -29,11 +30,11 @@ const AboutSection = () => {
                 <motion.p variants={fade}>
                     Contact me if you are looking for self-motivated, well-organized and committed junior front-end with a positive attitude to challenges and opportunities.
                 </motion.p>
-                <motion.button
+                <Link to="/contact"><motion.button
                     variants={fade}
                 >
                     Contact me
-                </motion.button>
+                </motion.button></Link>
             </Description>
             <Image>
                 <motion.img
