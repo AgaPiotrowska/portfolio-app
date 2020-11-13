@@ -2,7 +2,8 @@
 
 This is a dynamic website powered by [Create React App](https://github.com/facebook/create-react-app) that was created to present in an easy and friendly way my tech portfolio. 
 
-![portfolio_app_screen](src/img/readmephoto.png)
+![readmephoto](https://user-images.githubusercontent.com/67587804/98983038-883fdd00-2520-11eb-8017-920ccd4014ed.png)
+
 
 ## Motivation
 
