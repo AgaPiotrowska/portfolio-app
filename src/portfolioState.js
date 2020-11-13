@@ -11,6 +11,7 @@ import forestspa4 from "./img/forestspa4.png"
 import mpaction3 from "./img/mpaction3.png"
 import musicplayer3 from "./img/musicplayer3.png"
 import dayplanner3 from "./img/dayplanner3.png"
+import mpaction4 from "./img/mpaction4.png"
 
 export const PortfolioState = () => {
   return [
@@ -45,7 +46,7 @@ export const PortfolioState = () => {
       url: "/portfolio/mpaction-photo",
       secondaryImg1: mpaction2,
       secondaryImg2: mpaction3,
-      secondaryImg3: mpaction3,
+      secondaryImg3: mpaction4,
       awards: [
         {
           title: "Description:",
