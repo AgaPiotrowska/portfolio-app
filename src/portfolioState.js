@@ -10,12 +10,12 @@ import forestspa3 from "./img/forestspa3.png"
 import forestspa4 from "./img/forestspa4.png"
 import mpaction3 from "./img/mpaction3.png"
 import musicplayer3 from "./img/musicplayer3.png"
+import dayplanner3 from "./img/dayplanner3.png"
 
 export const PortfolioState = () => {
   return [
     {
       title: "Forest Spa",
-      description: "lorem shhgagsdkdfasdbkasfbksarbfhwrwabfkjwfnhjqw,fnjr",
       mainImg: forestspa1,
       secondaryImg1: forestspa2,
       secondaryImg2: forestspa3,
@@ -23,19 +23,19 @@ export const PortfolioState = () => {
       url: "/portfolio/forest-spa",
       awards: [
         {
-          title: "Forest Spa",
+          title: "Description:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "This is a commercial beauty salon React powered website, designed to present current offer, gallery with interiors and working team.",
         },
         {
-          title: "Forest Spa",
+          title: "Built with:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Create React App, SASS, React Router, React Photo Gallery",
         },
         {
-          title: "Forest Spa",
+          title: "See live at:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "link",
         },
       ],
     },
@@ -48,19 +48,19 @@ export const PortfolioState = () => {
       secondaryImg3: mpaction3,
       awards: [
         {
-          title: "MP Action Photo",
+          title: "Description:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "This is a React powered professional photographer website with built-in login page and API for the owner to upload photos and blog posts.",
         },
         {
-          title: "MP Action Photo",
+          title: "Built with",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Create React App, Redux, SASS, React Router, React Photo Gallery, React Snapshot, API, AWS",
         },
         {
-          title: "MP Action Photo",
+          title: "See live at:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "link",
         },
       ],
     },
@@ -70,22 +70,22 @@ export const PortfolioState = () => {
       url: "/portfolio/day-planner",
       secondaryImg1: dayplanner1,
       secondaryImg2: dayplanner2,
-      secondaryImg3: dayplanner2,
+      secondaryImg3: dayplanner3,
       awards: [
         {
-          title: "Day Planner",
+          title: "Description:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "This is a simple day planner app to organize your daily tasks and mark the pending and fulfilled ones.",
         },
         {
-          title: "Day Planner",
+          title: "Built with:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "Create React App, CSS",
         },
         {
-          title: "Day Planner",
+          title: "See live at:",
           description:
-            "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+            "link",
         },
       ],
     },
@@ -93,24 +93,24 @@ export const PortfolioState = () => {
       title: "Music Player",
       mainImg: musicplayer1,
       url: "/portfolio/music-player",
-      secondaryImg1: musicplayer2,
-      secondaryImg2: musicplayer3,
-      secondaryImg3: musicplayer1,
+      secondaryImg1: musicplayer1,
+      secondaryImg2: musicplayer2,
+      secondaryImg3: musicplayer3,
       awards: [
         {
-          title: "Music Player",
+          title: "Description:",
           description:
-              "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+              "This app is powered by Create React App and was created to play your favorite music.",
         },
         {
-          title: "Music Player",
+          title: "Built with:",
           description:
-              "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+              "Create React App, SASS, FortAwesome, UUID",
         },
         {
-          title: "Music Player",
+          title: "See live at:",
           description:
-              "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+              "link",
         },
       ],
     },

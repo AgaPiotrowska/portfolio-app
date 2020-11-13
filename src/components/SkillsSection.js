@@ -25,44 +25,44 @@ const SkillsSection = () => {
                     <Card>
                         <div className="icon">
                             <img src={clock} alt="icon"/>
-                            <h3>Problem-solving</h3>
+                            <h3>Time management</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Organized and able to prioritize tasks</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={diaphragm} alt="icon"/>
                             <h3>Self-motivation</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Never stop challenging myself !</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={money} alt="icon"/>
-                            <h3>Time-management</h3>
+                            <h3>Efficiency</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Doing things well, successfully and without waste</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="icon"/>
                             <h3>Communication</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Easy-going, experienced working in international environment</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="icon"/>
-                            <h3>Efficiency</h3>
+                            <h3>Problem solving</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Finding issues, searching for solutions</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="icon"/>
                             <h3>Creativity</h3>
                         </div>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Taking initiative comes naturally to me</p>
                     </Card>
                 </Cards>
             </DescriptionSkills>

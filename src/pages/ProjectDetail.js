@@ -41,8 +41,8 @@ const ProjectDetail = () => {
                     </ProjectText>
                     <ImageDisplay>
                         <img src={project.secondaryImg1} alt="secondary img"/>
-                        <img src={project.secondaryImg1} alt="secondary img"/>
                         <img src={project.secondaryImg2} alt="secondary img"/>
+                        <img src={project.secondaryImg3} alt="secondary img"/>
                     </ImageDisplay>
                 </Details>
             )}
@@ -58,6 +58,14 @@ const HeadLine=styled.div`
   min-height: 90vh;
   position:relative;
   padding-top: 20vh;
+  
+    @media (max-width: 1500px) {
+      min-height: 50vh;
+  }
+  
+    @media (max-width: 400px) {
+      min-height: 30vh;
+  }
   
   h2{
       position:absolute;
@@ -87,6 +95,18 @@ const ProjectText=styled.div`
 
 const TextComponentStyle=styled.div`
   padding: 3rem;
+  width: 500px;
+  height: 300px;
+  
+  @media (max-width: 1500px) {
+      width: 100%;
+      height: 200px;
+  }
+  
+    @media (max-width: 400px) {
+      width: 100%;
+      height: 400px;
+  }
   
   h3{
       font-size: 2rem;
@@ -100,7 +120,15 @@ const TextComponentStyle=styled.div`
   }
   
   p{
-      padding: 2rem 0rem;
+      padding: 1.5rem 0rem;
+      
+     @media (max-width: 1500px) {
+            padding: 1rem 0rem;
+  }
+  
+    @media (max-width: 400px) {
+     padding: 0.5rem 0rem;
+  }
   }
 `;
 
