@@ -4,6 +4,7 @@ import forestspa1 from "../img/forestspa1.png"
 import mpaction1 from "../img/mpaction1.png"
 import dayplanner2 from "../img/dayplanner2.png"
 import musicplayer1 from "../img/musicplayer1.png"
+import gamesapp from "../img/gamesapp.png";
 import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
 import {pageAnimation, fade, photoAnim, lineAnim, scrollReveal} from "../animation";
@@ -55,6 +56,20 @@ const MyProjects = () => {
                     className="line"></motion.div>
                 <Link to="/portfolio/mpaction-photo">
                     <img src={mpaction1} alt="mp action photo"/>
+                </Link>
+            </Portfolio>
+            <Portfolio
+                variants={fade}
+                ref={element3}
+                animate={controls3}
+                initial="hidden"
+            >
+                <h2>Your Favorite Games</h2>
+                <motion.div
+                    variants={lineAnim}
+                    className="line"></motion.div>
+                <Link to="/portfolio/games">
+                    <img src={gamesapp} alt="games"/>
                 </Link>
             </Portfolio>
             <Portfolio

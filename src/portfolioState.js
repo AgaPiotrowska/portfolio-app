@@ -12,6 +12,9 @@ import mpaction3 from "./img/mpaction3.png"
 import musicplayer3 from "./img/musicplayer3.png"
 import dayplanner3 from "./img/dayplanner3.png"
 import mpaction4 from "./img/mpaction4.png"
+import gamesapp from "./img/gamesapp.png";
+import gamesapp2 from "./img/gamesapp2.png";
+import gamesapp3 from "./img/gamesapp3.png";
 
 export const PortfolioState = () => {
   return [
@@ -62,6 +65,31 @@ export const PortfolioState = () => {
           title: "See live at:",
           description:
             "link",
+        },
+      ],
+    },
+    {
+      title: "Your Favorite Games",
+      mainImg: gamesapp,
+      secondaryImg1: gamesapp2,
+      secondaryImg2: gamesapp3,
+      secondaryImg3: gamesapp,
+      url: "/portfolio/games",
+      awards: [
+        {
+          title: "Description:",
+          description:
+              "This is a React powered app built with the use of API in order to search for the games available on the market.",
+        },
+        {
+          title: "Built with:",
+          description:
+              "Create React App, Redux, API, React Router, styled components, Framer Motion",
+        },
+        {
+          title: "See live at:",
+          description:
+              "link",
         },
       ],
     },
