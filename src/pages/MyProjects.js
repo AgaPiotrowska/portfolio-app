@@ -13,9 +13,10 @@ import ScrollTop from "../components/ScrollTop";
 
 const MyProjects = () => {
 
-    const [element, controls] = useScroll();
     const [element2, controls2] = useScroll();
     const [element3, controls3] = useScroll();
+    const [element4, controls4] = useScroll();
+    const [element5, controls5] = useScroll();
 
     return (
         <Projects
@@ -46,8 +47,8 @@ const MyProjects = () => {
             </Portfolio>
             <Portfolio
                 variants={fade}
-                ref={element}
-                animate={controls}
+                ref={element2}
+                animate={controls2}
                 initial="hidden"
             >
                 <h2>MP Action Photo</h2>
@@ -55,27 +56,36 @@ const MyProjects = () => {
                     variants={lineAnim}
                     className="line"></motion.div>
                 <Link to="/portfolio/mpaction-photo">
-                    <img src={mpaction1} alt="mp action photo"/>
+                    <img
+                        variants={photoAnim}
+                        src={mpaction1}
+                        alt="mp action photo"/>
                 </Link>
             </Portfolio>
             <Portfolio
-                variants={fade}
-                ref={element3}
-                animate={controls3}
-                initial="hidden"
-            >
+                    variants={fade}
+                    ref={element3}
+                    animate={controls3}
+                    initial="hidden"
+                >
                 <h2>Your Favorite Games</h2>
                 <motion.div
                     variants={lineAnim}
-                    className="line"></motion.div>
+                    className="line">
+                </motion.div>
                 <Link to="/portfolio/games">
-                    <img src={gamesapp} alt="games"/>
+                    <Hide>
+                        <motion.img
+                            variants={photoAnim}
+                            src={gamesapp}
+                            alt="games"/>
+                    </Hide>
                 </Link>
             </Portfolio>
             <Portfolio
                 variants={fade}
-                ref={element2}
-                animate={controls2}
+                ref={element4}
+                animate={controls4}
                 initial="hidden"
             >
                 <h2>Day Planner</h2>
@@ -88,8 +98,8 @@ const MyProjects = () => {
             </Portfolio>
             <Portfolio
                 variants={fade}
-                ref={element3}
-                animate={controls3}
+                ref={element5}
+                animate={controls5}
                 initial="hidden"
             >
                 <h2>Music Player</h2>
