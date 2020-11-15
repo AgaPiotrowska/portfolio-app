@@ -1,11 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styled from "styled-components";
 import {About} from "../styles";
 import Toggle from "./Toggle";
 import { AnimateSharedLayout } from "framer-motion";
 import useScroll from "./useScroll";
 import { scrollReveal } from "../animation";
-import {Link} from "react-router-dom";
 
 const FaqSection = () => {
 
@@ -111,11 +110,6 @@ const Faq=styled(About)`
         // padding: 2rem 2rem;
         text-align: center;
     }
-`;
-
-const Eldronado=styled.div`
-    color: #CCCCCC;
-    text-decoration: none;
 `;
 
 export default FaqSection;

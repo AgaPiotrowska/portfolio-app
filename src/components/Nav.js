@@ -44,7 +44,7 @@ const Nav = () => {
 };
 
 const StyledNav=styled.nav`
-  min-height: 10vh;
+  height: 10vh;
   display: flex;
   margin: auto;
   justify-content: space-between;
@@ -79,14 +79,15 @@ const StyledNav=styled.nav`
    @media (max-width: 1300px) {
        flex-direction: column;
        padding: 2rem 1rem;
+       height: 20vh;
        
        #logo {
            display: inline-block;
-           margin: 1rem;
+           margin: 0.2rem;
        }
        
        ul{
-       padding: 2rem;
+       padding: 1rem;
        justify-content: space-around;
        width: 100%;
        
