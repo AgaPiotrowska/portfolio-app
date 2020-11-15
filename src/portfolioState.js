@@ -16,7 +16,25 @@ import gamesapp from "./img/gamesapp.png";
 import gamesapp2 from "./img/gamesapp2.png";
 import gamesapp3 from "./img/gamesapp3.png";
 
+
+
 export const PortfolioState = () => {
+
+  const linkForestSpa = <div className="project-links"><a href="https://forestspa.com.pl/">Project Link</a>
+  <a href="https://github.com/AgaPiotrowska/Forest-Spa-www">Github Link</a></div>
+
+  const linkMpAction = <div className="project-links"><a href="https://www.mpactionphoto.pl/">Project Link</a>
+    <a href="https://github.com/AgaPiotrowska/MP-Action-Photo-www">Github Link</a></div>
+
+  const linkDayPlanner = <div className="project-links"><a href="https://day-planner-app.netlify.app/">Project Link</a>
+    <a href="https://github.com/AgaPiotrowska/DayPlannerApp">Github Link</a></div>
+
+  const linkFavoriteGame = <div className="project-links"><a href="https://yourfavoritegames.netlify.app/">Project Link</a>
+    <a href="https://github.com/AgaPiotrowska/Your-favorite-games-App">GitHub Link</a></div>
+
+  const linkMusicApp = <div className="project-links"><a href="https://music-playerapp.netlify.app/">Project Link</a>
+    <a href="https://github.com/AgaPiotrowska/MusicApp">Github Link</a></div>
+
   return [
     {
       title: "Forest Spa",
@@ -39,7 +57,7 @@ export const PortfolioState = () => {
         {
           title: "See live at:",
           description:
-            "link",
+          linkForestSpa,
         },
       ],
     },
@@ -64,7 +82,7 @@ export const PortfolioState = () => {
         {
           title: "See live at:",
           description:
-            "link",
+          linkMpAction,
         },
       ],
     },
@@ -89,7 +107,7 @@ export const PortfolioState = () => {
         {
           title: "See live at:",
           description:
-              "link",
+          linkFavoriteGame,
         },
       ],
     },
@@ -114,7 +132,7 @@ export const PortfolioState = () => {
         {
           title: "See live at:",
           description:
-            "link",
+          linkDayPlanner,
         },
       ],
     },
@@ -139,7 +157,7 @@ export const PortfolioState = () => {
         {
           title: "See live at:",
           description:
-              "link",
+          linkMusicApp,
         },
       ],
     },

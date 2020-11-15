@@ -106,8 +106,6 @@ const Faq=styled(About)`
   }
   
       @media (max-width: 1300px) {
-        // display: block;
-        // padding: 2rem 2rem;
         text-align: center;
     }
 `;

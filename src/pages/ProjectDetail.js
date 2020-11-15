@@ -122,6 +122,13 @@ const TextComponentStyle=styled.div`
   p{
       padding: 1.5rem 0rem;
       
+      a {
+        display: block;
+        color: #ccc;
+        font-size: 1.4rem;
+        line-height: 150%;
+      }
+      
      @media (max-width: 1500px) {
             padding: 1rem 0rem;
   }

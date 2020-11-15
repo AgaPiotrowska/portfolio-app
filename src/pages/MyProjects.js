@@ -7,7 +7,7 @@ import musicplayer1 from "../img/musicplayer1.png"
 import gamesapp from "../img/gamesapp.png";
 import {Link} from "react-router-dom";
 import { motion } from "framer-motion";
-import {pageAnimation, fade, photoAnim, lineAnim, scrollReveal} from "../animation";
+import {pageAnimation, fade, photoAnim, lineAnim} from "../animation";
 import useScroll from "../components/useScroll";
 import ScrollTop from "../components/ScrollTop";
 
@@ -59,7 +59,7 @@ const MyProjects = () => {
                     <img
                         variants={photoAnim}
                         src={mpaction1}
-                        alt="mp action photo"/>
+                        alt="mp action"/>
                 </Link>
             </Portfolio>
             <Portfolio
