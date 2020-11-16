@@ -3,6 +3,8 @@ import clock from "../img/clock.svg";
 import diaphragm from "../img/diaphragm.svg";
 import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
+import bulb from "../img/bulb.svg";
+import problem from "../img/problem.svg";
 import {About, Description, Image} from "../styles";
 import styled from "styled-components";
 import useScroll  from "./useScroll";
@@ -52,14 +54,14 @@ const SkillsSection = () => {
                     </Card>
                     <Card>
                         <div className="icon">
-                            <img src={teamwork} alt="icon"/>
+                            <img src={problem} width="50" height="50" alt="icon"/>
                             <h3>Problem solving</h3>
                         </div>
                         <p>Finding issues, searching for solutions</p>
                     </Card>
                     <Card>
                         <div className="icon">
-                            <img src={teamwork} alt="icon"/>
+                            <img src={bulb} width="50" height="50" alt="icon"/>
                             <h3>Creativity</h3>
                         </div>
                         <p>Taking initiative comes naturally to me</p>
