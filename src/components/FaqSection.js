@@ -12,10 +12,10 @@ const FaqSection = () => {
 
     return (
         <Faq
-            variants={scrollReveal}
-            ref={element}
-            animate={controls}
-            initial="hidden"
+            // variants={scrollReveal}
+            // ref={element}
+            // animate={controls}
+            // initial="hidden"
         >
             <h2>
                 Any Questions <span>FAQ</span>
@@ -78,7 +78,7 @@ const Faq=styled(About)`
   display: block;
   
   span {
-  display:block;
+  display: block;
   }
   
   h2 {
@@ -95,7 +95,7 @@ const Faq=styled(About)`
   
   .question {
   padding: 3rem 0rem;
-  cursor:pointer;
+  cursor: pointer;
   }
   
   .answer {

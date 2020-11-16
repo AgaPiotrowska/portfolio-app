@@ -60,7 +60,11 @@ const HeadLine=styled.div`
   padding-top: 20vh;
   
     @media (max-width: 1500px) {
-      min-height: 50vh;
+      min-height: 40vh;
+  }
+  
+      @media (max-width: 1200px) {
+      padding-top: 12vh;
   }
   
     @media (max-width: 400px) {
@@ -72,6 +76,10 @@ const HeadLine=styled.div`
       top: 5%;
       left: 50%;
       transform: translate(-50%, -10%);
+      
+     @media (max-width: 600px) {
+      font-size: 1.8rem;
+  }
   }
   
   img {
@@ -101,11 +109,13 @@ const TextComponentStyle=styled.div`
   @media (max-width: 1500px) {
       width: 100%;
       height: 200px;
+      padding: 1rem;
   }
   
     @media (max-width: 400px) {
       width: 100%;
-      height: 400px;
+      height: 200px;
+      padding: 0.5rem;
   }
   
   h3{
@@ -149,7 +159,11 @@ const ImageDisplay=styled.div`
   img {
       width: 600px;
       object-fit: cover;
-      padding: 1rem;
+      margin: 0.3rem;
+      
+     @media (max-width: 620px) {
+     width: 80%;
+  }
   }
 `;
 

@@ -73,6 +73,7 @@ const SkillsSection = () => {
 };
 
 const Skills = styled(About)`
+
   h2 {
     padding-bottom: 5rem;
   }

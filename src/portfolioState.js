@@ -1,20 +1,20 @@
-import forestspa1 from "./img/forestspa1.png"
-import mpaction1 from "./img/mpaction1.png"
-import dayplanner2 from "./img/dayplanner2.png"
+import forestspa1 from "./img/forestspa1.jpg"
+import mpaction1 from "./img/mpaction1.jpg"
+import dayplanner2 from "./img/dayplanner2.jpg"
 import musicplayer1 from "./img/musicplayer1.png"
-import forestspa2 from "./img/forestspa2.png"
+import forestspa2 from "./img/forestspa2.jpg"
 import mpaction2 from "./img/mpaction2.png"
-import dayplanner1 from "./img/dayplanner1.png"
+import dayplanner1 from "./img/dayplanner1.jpg"
 import musicplayer2 from "./img/musicplayer2.png"
-import forestspa3 from "./img/forestspa3.png"
+import forestspa3 from "./img/forestspa3.jpg"
 import forestspa4 from "./img/forestspa4.png"
 import mpaction3 from "./img/mpaction3.png"
 import musicplayer3 from "./img/musicplayer3.png"
-import dayplanner3 from "./img/dayplanner3.png"
+import dayplanner3 from "./img/dayplanner3.jpg"
 import mpaction4 from "./img/mpaction4.png"
 import gamesapp from "./img/gamesapp.png";
 import gamesapp2 from "./img/gamesapp2.png";
-import gamesapp3 from "./img/gamesapp3.png";
+import gamesapp3 from "./img/gamesapp3.jpg";
 
 
 
