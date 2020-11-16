@@ -16,10 +16,10 @@ const SkillsSection = () => {
 
     return (
         <Skills
-            variants={scrollReveal}
-            animate={controls}
-            initial="hidden"
-            ref={element}
+            // variants={scrollReveal}
+            // animate={controls}
+            // initial="hidden"
+            // ref={element}
         >
             <DescriptionSkills>
                 <h2>Valuable <span>soft</span> skills</h2>
