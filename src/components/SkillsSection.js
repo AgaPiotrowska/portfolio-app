@@ -5,7 +5,7 @@ import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import bulb from "../img/bulb.svg";
 import problem from "../img/problem.svg";
-import {About, Description, Image} from "../styles";
+import {About, Description} from "../styles";
 import styled from "styled-components";
 import useScroll  from "./useScroll";
 import {scrollReveal} from "../animation";

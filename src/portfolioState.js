@@ -20,7 +20,7 @@ import gamesapp3 from "./img/gamesapp3.png";
 
 export const PortfolioState = () => {
 
-  const linkForestSpa = <div className="project-links"><a href="https://forestspa.com.pl/">Project Link</a>
+  const linkForestSpa = <div className="project-links"><a href="http://forestspa.com.pl/">Project Link</a>
   <a href="https://github.com/AgaPiotrowska/Forest-Spa-www">Github Link</a></div>
 
   const linkMpAction = <div className="project-links"><a href="https://www.mpactionphoto.pl/">Project Link</a>
