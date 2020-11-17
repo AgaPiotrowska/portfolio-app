@@ -43,7 +43,7 @@ const SkillsSection = () => {
                             <img src={money} alt="icon"/>
                             <h3>Efficiency</h3>
                         </div>
-                        <p className="card-text">Doing things well, successfully and without waste</p>
+                        <p className="card-text">Doing things well, successfully, without waste</p>
                     </Card>
                     <Card>
                         <div className="icon">
@@ -106,7 +106,7 @@ const Card=styled.div`
       background-color: white;
       color: black;
       padding: 0.7rem;
-      width: 130px;
+      min-width: 100px;
       border-radius: 8px;
   }
   
