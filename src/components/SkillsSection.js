@@ -29,42 +29,42 @@ const SkillsSection = () => {
                             <img src={clock} alt="icon"/>
                             <h3>Time management</h3>
                         </div>
-                        <p>Organized and able to prioritize tasks</p>
+                        <p className="card-text">Organized and able to prioritize tasks</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={diaphragm} alt="icon"/>
                             <h3>Self-motivation</h3>
                         </div>
-                        <p>Never stop challenging myself !</p>
+                        <p className="card-text">Never stop challenging myself</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={money} alt="icon"/>
                             <h3>Efficiency</h3>
                         </div>
-                        <p>Doing things well, successfully and without waste</p>
+                        <p className="card-text">Doing things well, successfully and without waste</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={teamwork} alt="icon"/>
                             <h3>Communication</h3>
                         </div>
-                        <p>Easy-going, experienced working in international environment</p>
+                        <p className="card-text">Easy-going, experienced working in international environment</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={problem} width="50" height="50" alt="icon"/>
                             <h3>Problem solving</h3>
                         </div>
-                        <p>Finding issues, searching for solutions</p>
+                        <p className="card-text">Finding issues, searching for solutions</p>
                     </Card>
                     <Card>
                         <div className="icon">
                             <img src={bulb} width="50" height="50" alt="icon"/>
                             <h3>Creativity</h3>
                         </div>
-                        <p>Taking initiative comes naturally to me</p>
+                        <p className="card-text">Taking initiative comes naturally to me</p>
                     </Card>
                 </Cards>
             </DescriptionSkills>
@@ -76,11 +76,6 @@ const Skills = styled(About)`
 
   h2 {
     padding-bottom: 5rem;
-  }
-  
-  p{
-      width: 70%;
-      padding: 2rem 0rem 4rem 0rem;
   }
 `;
 
@@ -100,16 +95,27 @@ const Cards=styled.div`
 const Card=styled.div`
   flex-basis: 20rem;
   margin: 0 auto;
+  width: 150px;
   
   .icon {
-  display: flex;
-  align-items: center;
+      display: flex;
+      align-items: center;
   
   h3 {
-  margin-left: 1rem;
-  background-color: white;
-  color: black;
-  padding: 0.7rem;
+      margin-left: 1rem;
+      background-color: white;
+      color: black;
+      padding: 0.7rem;
+      width: 130px;
+      border-radius: 8px;
+  }
+  
+  p.card-text {
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
   }
   }
 `;
