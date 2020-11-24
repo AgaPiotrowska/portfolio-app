@@ -12,10 +12,10 @@ const FaqSection = () => {
 
     return (
         <Faq
-            // variants={scrollReveal}
-            // ref={element}
-            // animate={controls}
-            // initial="hidden"
+            variants={scrollReveal}
+            ref={element}
+            animate={controls}
+            initial="hidden"
         >
             <h2>
                 Any Questions <span>FAQ</span>
@@ -60,7 +60,7 @@ const FaqSection = () => {
                             <p><b>International student exchange:</b> UBC, Vancouver <b>Canada</b> (English Philology), Telavi State University <b>Georgia</b> (English Philology), Sciences Politiques, Bordeaux <b>France</b> (English Philology), UW Warsaw (Journalism, Marketing and PR)</p>
                             <p>Languages: <b>English</b> (fluent), <b>French</b> (good command), <b>Spanish</b> (basic)</p>
                         </div>
-                </Toggle>
+                </Toggle>y
                 <Toggle title="Interests?">
                     <div className="answer">
                         <p>Passion for <b>outdoor sports</b> like trekking, climbing, skiing, skitouring, trail running</p>

@@ -11,11 +11,10 @@ import forestspa4 from "./img/forestspa4.png"
 import mpaction3 from "./img/mpaction3.png"
 import musicplayer3 from "./img/musicplayer3.png"
 import dayplanner3 from "./img/dayplanner3.jpg"
-import mpaction4 from "./img/mpaction4.png"
 import gamesapp from "./img/gamesapp.png";
 import gamesapp2 from "./img/gamesapp2.png";
 import gamesapp3 from "./img/gamesapp3.jpg";
-
+import webapp from "./img/webapp.png";
 
 
 export const PortfolioState = () => {
@@ -67,7 +66,7 @@ export const PortfolioState = () => {
       url: "/portfolio/mpaction-photo",
       secondaryImg1: mpaction2,
       secondaryImg2: mpaction3,
-      secondaryImg3: mpaction4,
+      secondaryImg3: webapp,
       awards: [
         {
           title: "Description:",
@@ -77,7 +76,7 @@ export const PortfolioState = () => {
         {
           title: "Built with",
           description:
-            "Create React App, Redux, SASS, React Router, React Photo Gallery, React Snapshot, API, AWS",
+            "Create React App, Redux, SASS, React Router, React Photo Gallery, React Snapshot, API, React Quill, AWS",
         },
         {
           title: "See live at:",
